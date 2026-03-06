@@ -1,40 +1,85 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Appointments</title>
+<meta charset="UTF-8">
+<title>Book Appointment | Royal Threads Atelier</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Royal Threads Fashion House</h1>
-<marquee>Upcoming Fashion Event – Summer Collection Launch 2026</marquee>
-<nav>
-<a href="index.html">Home</a> |
-<a href="products.html">Products</a> |
-<a href="trustees.html">Trustees</a> |
-<a href="appointments.html">Appointments</a> |
+<div class="topbar">
+<marquee>Schedule your personal styling or couture fitting today.</marquee>
+</div>
+
+<header class="header">
+
+<div class="brand">
+<h1>ROYAL THREADS</h1>
+<p>ATELIER</p>
+</div>
+
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="trustees.html">Trustees</a>
+<a href="appointments.html">Appointments</a>
 <a href="events.html">Events</a>
 </nav>
 
-<h2>Book an Appointment</h2>
+</header>
+
+<section class="story-section">
+
+<p class="section-label">BOOK A SESSION</p>
+
+<h2>Private Styling Appointment</h2>
+
+<p>
+Reserve a one-on-one consultation with our designers for custom fittings,
+wardrobe styling, and couture designs.
+</p>
+
+<br>
 
 <form>
-Name:<br>
-<input type="text"><br><br>
 
-Email:<br>
-<input type="email"><br><br>
+<label>Name</label>
+<br>
+<input type="text" required>
 
-Appointment Date:<br>
-<input type="date"><br><br>
- <button onclick="confirmBooking()">Submit</button>
+<br><br>
 
-<button>Submit</button>
+<label>Email</label>
+<br>
+<input type="email" required>
+
+<br><br>
+
+<label>Preferred Appointment Date</label>
+<br>
+<input type="date" required>
+
+<br><br>
+
+<button onclick="confirmBooking()">Submit</button>
+
 </form>
-<script src="script.js"></script>
-</body>
 
+</section>
+
+<footer class="footer">
+
+<div class="footer-brand">
+<h3>Royal Threads Atelier</h3>
+<p>Private styling experiences for refined fashion.</p>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
 </html>
+
 
