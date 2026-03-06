@@ -12,12 +12,12 @@ body{
 }
 
 .topbar{
-  background:#1f1b18;
-  color:#d9bc7a;
-  padding:10px 0;
-  font-size:14px;
-  letter-spacing:1px;
-  font-weight:bold;
+background:#1f1b18;
+color:#d9bc7a;
+padding:10px;
+font-size:14px;
+letter-spacing:1px;
+text-align:center;
 }
 
 .header{
@@ -305,4 +305,5 @@ body{
     padding:40px 20px;
   }
 }
+
 
