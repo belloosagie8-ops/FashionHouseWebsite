@@ -312,6 +312,13 @@ text-align:center;
   margin-top: 40px;
   flex-wrap: wrap;
 }
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
 
 .team-card {
   text-align: center;
@@ -337,6 +344,7 @@ text-align:center;
 .team-card p {
   color: #777;
   font-size: 14px;
+}
 }
 }
 
